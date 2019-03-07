@@ -1,0 +1,62 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <style>
+      g {
+        display: none;
+      }
+      g:target,
+      g:target g {
+        display: inline;
+      }
+      .white {
+        color: #ffffff;
+      }
+      .gray {
+        color: #777777;
+      }
+      .green {
+        color: #017767;
+      }
+      .turquoise {
+        color: #22BDBF;
+      }
+      .blue {
+        color: #072869;
+      }
+    </style>
+
+    <symbol id="circle" viewBox="-1 -1 122 122">
+      <title>Circle</title>
+      <path
+        d="M60,120.5C26.641,120.5-0.5,93.36-0.5,60C-0.5,26.641,26.641-0.5,60-0.5c16.135,0,31.322,6.3,42.763,17.74
+      	C114.201,28.68,120.502,43.866,120.5,60C120.5,93.36,93.36,120.5,60,120.5z M60,3.395C28.788,3.395,3.395,28.788,3.395,60
+      	c0,31.214,25.393,56.607,56.605,56.607S116.605,91.214,116.605,60C116.605,28.788,91.212,3.395,60,3.395z"/>
+      <path d="M52.097,74.27c-0.972,0.561-1.77,0.096-1.77-1.022V46.744c0-1.123,0.791-1.573,1.758-1.007l22.867,13.401
+        	c0.967,0.565,0.959,1.485-0.015,2.045L52.097,74.27z"/>
+    </symbol>
+    
+  </defs>
+  <g id="icon-search">
+    <use class="blue" xlink:href="#search"/>
+  </g>
+  <g id="icon-pdf">
+    <use class="blue" xlink:href="#pdf"/>
+  </g>
+  <g id="icon-search-active">
+    <use class="white" xlink:href="#search"/>
+  </g>
+  <g id="icon-contrast">
+    <use class="blue" xlink:href="#contrast"/>
+  </g>
+  <g id="icon-contrast-active">
+    <use class="white" xlink:href="#contrast"/>
+  </g>
+  <g id="icon-view">
+    <use class="blue" xlink:href="#view"/>
+  </g>
+  <g id="icon-view-active">
+    <use class="white" xlink:href="#view"/>
+  </g>
+
+</svg>
