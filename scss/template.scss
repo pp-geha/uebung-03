@@ -23,3 +23,66 @@
   max-width: 100%;
   // overflow: hidden;
 }
+
+body {
+  background-image: url(../img/background.png);
+  background-repeat: repeat;
+}
+
+header {
+  position: relative;
+}
+
+span {
+  display: none;
+}
+
+.page-wrap {
+  max-width: $global-width;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  padding: 2.5rem;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main-menu {
+  list-style-type: none;
+
+    li a{
+      display: inline-block;
+      float: left;
+      padding: 0 2rem;
+    }
+}
+
+#main-menu .orange a{
+  border-top: #F29400;
+  border-width: 2rem;
+}
+
+#main-menu .rose a{
+  border-color: #986566;
+}
+
+#main-menu .blue a{
+  border-color: #204773;
+}
+
+#main-menu .beige a{
+  border-color: #9A9966;
+}
+
+#main-menu .red a{
+  border-color: #981134;
+}
+
+#main-menu .turqoise a{
+  border-color: #9AB3AF;
+}

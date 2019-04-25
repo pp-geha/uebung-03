@@ -66,7 +66,7 @@
 // ---------
 
 $global-font-size: 112.5%;
-$global-width: rem-calc(1200);
+$global-width: rem-calc(1440);
 $global-lineheight: 1.5;
 $foundation-palette: ( primary: #1779ba, secondary: #767676, success: #3adb76, warning: #ffae00, alert: #cc4b37, );
 $light-gray: #F6F6F6;
@@ -78,10 +78,13 @@ $black: #424242;
 $white: #fefefe;
 $light-green: #F1F8F7;
 $green: #01695A;
-$orange: #E87208;
+$orange: #F29400;
 $yellow: #F7A600;
-$blue: #6399C8;
-$red: #CF000F;
+$blue: #204773;
+$beige: #9A9966;
+$red: #981134;
+$rose: #986566;
+$turqoise: #9AB3AF;
 $violet: #663399;
 $olive-green: #BFB920;
 $body-background: $white;
@@ -865,4 +868,3 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
-
